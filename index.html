@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/stylesheet.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-lg-6">
+      <main class="container-fluid ps-0 pe-0">
+          <div class="zonaImagen text-center pb-2 pt-4">
+            <div class="content">
+              <p class="result_letter">Your Result</p>
+              <p class="number_letter">76</p>
+              <p class="number2_letter">of 100</p>
+              <p class="great">Great</p>
+              <p class="description ps-3 pe-3">
+                You scored higher than 65% of the people who have taken these
+                tests.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <section
+            class="information text-center mt-4 d-flex flex-column gap-3"
+          >
+            <p class="sumario text-start ms-4"><strong>Summary</strong></p>
+
+            <button class="button_reaction d-flex justify-content-between mx-4">
+              <div class="icons">
+                <img src="/assets/images/icon-reaction.svg" /> Reaction
+              </div>
+              <div class="numbers text-black">80 <span>/100</span></div>
+            </button>
+
+            <button class="button_memory d-flex justify-content-between mx-4">
+              <div class="icons">
+                <img src="/assets/images/icon-memory.svg" /> Memory
+              </div>
+              <div class="numbers text-black">92 <span>/100</span></div>
+            </button>
+
+            <button class="button_verbal d-flex justify-content-between mx-4">
+              <div class="icons">
+                <img src="/assets/images/icon-verbal.svg" /> Verbal
+              </div>
+              <div class="numbers text-black">61 <span>/100</span></div>
+            </button>
+
+            <button class="button_visual d-flex justify-content-between mx-4">
+              <div class="icons">
+                <img src="/assets/images/icon-visual.svg" /> Visual
+              </div>
+              <div class="numbers text-black">72<span>/100</span></div>
+            </button>
+
+            <button class="submit mx-3 mb-4">Continue</button>
+          </section>
+
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

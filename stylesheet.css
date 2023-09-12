@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Noto+Sans:wght@300&display=swap');
+
+ 
+*{
+font-family: 'Hanken Grotesk', sans-serif;
+margin: 0px;
+padding: 0px;
+}
+
+:root{
+--Light_red: hsl(0, 100%,60%);
+--Light_red2: hsl(0, 100%, 67%, 0.1);
+--Orange_y_yellow: hsl(39, 100%, 56%);
+--Green_teal: hsl(166, 100%, 37%);
+--Cobalt_blue: hsl(234, 85%, 45%);
+--Light_slate_blue_background: hsl(252, 100%, 67%);
+--Light_royal_blue_background: hsl(241, 81%, 54%);
+--Violet_blue_circle: hsla(256, 72%, 46%, 1);
+--Persian_blue_circle: hsla(241, 72%, 46%, 0);   
+--White: hsl(0, 0%, 100%);
+--Pale_blue: hsl(221, 100%, 96%);
+--Light_lavender: hsl(241, 100%, 89%);
+--Dark_gray_blue: hsl(224, 30%, 27%);
+}
+
+.container-fluid{
+max-width: 700px;
+}
+
+.zonaImagen{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0px 0px 15px 15px ;
+}
+
+.result_letter, .number2_letter {
+font-size: 18px;
+color: var(--Light_lavender);
+}
+
+.number_letter{
+font-size:65px;
+color: white;
+}
+
+.great{
+font-size: 25px;
+color: var(--White);
+}
+
+.description{
+font-size:15px;
+color: var(--Light_lavender);
+}
+
+.button_reaction{
+border-radius: 7px;
+border: none;
+padding:10px;
+background-color:var(--Light_red2);
+color: var(--Light_red);
+}
+
+.button_memory{
+border-radius: 7px;
+border: none;
+padding:10px;
+background-color:var(--Light_red2);
+color: var(--Light_red);
+}
+
+.button_verbal{
+border-radius: 7px;
+border: none;
+padding:10px;
+background-color:var(--Pale_blue);
+color: var(--Green_teal);
+}
+
+.button_visual{
+border-radius: 7px;
+border: none;
+padding:10px;
+background-color:var(--Pale_blue);
+color: var(--Cobalt_blue);
+}
+
+.submit{
+border-radius: 17px;
+border: none;
+padding:10px;
+color: var(--White);
+background-color:var(--Dark_gray_blue);
+}
+
+span{
+color: gray;
+}
+
+@media (min-width: 1001px) {
+
+body{
+
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center
+
+}
+
+.zonaImagen{
+    border-radius: 15px;
+    width: 268px;
+        
+}
+
+
+html, body {
+    height: 100%;
+}
+
+.row{
+
+align-items: center;
+
+}
+
+
+}
+
+
